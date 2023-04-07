@@ -1,0 +1,42 @@
+/*----------------- ---------------------------------------- ------------------
+-                                                                             -
+-                       Styles pour page agent et entropot                    -
+-                                                                             -
+------------------------------------------------------------------------------*/
+
+body {
+    font-size: 19px;
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url('../image/m.jpg') center center no-repeat;*/
+    background: linear-gradient(rgba(45, 10, 4, 0.4), transparent), url('../image/m.jpg') center center no-repeat;
+}
+.img {
+    font-size: 19px;
+    background: linear-gradient(rgba(45, 10, 4, 0.4), transparent), url('../image/Island-of-Elba.jpg') center center no-repeat;
+    /* background: linear-gradient(rgba(50,20,47,8), transparent), url('../image/x.jpg') center center no-repeat; */
+}
+.img1 {
+    font-size: 19px;
+    background: linear-gradient(rgba(45, 10, 4, 0.4), transparent), url('../image/fulmine.jpg') center center no-repeat;
+    /* background: linear-gradient(rgba(50,20,47,8), transparent), url('../image/x.jpg') center center no-repeat; */
+}
+.img2 {
+    font-size: 19px;
+    background: linear-gradient(rgba(45, 10, 4, 0.4), transparent), url('../image/jungle.jpg') center center no-repeat;
+    /* background: linear-gradient(rgba(50,20,47,8), transparent), url('../image/x.jpg') center center no-repeat; */
+}
+.mjPrenom{
+    text-transform: capitalize;
+}
+/* .bg{
+    border-radius: 200px;
+} */
+
+.container{
+    margin-top: auto;
+}
+
+@media screen and (max-width: 850px) {
+    .container{
+        width: 90;
+    }
+}
